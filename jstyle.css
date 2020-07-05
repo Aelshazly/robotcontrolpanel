@@ -1,0 +1,52 @@
+.control-panel{
+
+	display: flex;
+	justify-content: center;
+	background-color: cadetblue;
+	font-family: serif;
+	font-size: 5rem;
+	font-style: bold;
+	margin-top: 10%;
+}
+
+
+
+.center-btns{
+	display: flex;
+	flex-direction: row;
+	margin: 1%;
+}
+
+.btns {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+    font-style: bold;
+
+}
+
+button {
+	  background-color: black; 
+	  color: #e7e7e7;
+	  border: none;
+	  padding: 32px 32px;;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  border-radius: 8px;
+}
+
+
+body {
+	font-family: serif;
+	background-color: cadetblue;
+	font-size: 4rem;
+	font-style: bold;
+}
+
+.state{
+	position: fixed; /* or absolute */
+  	top: 40%;
+  	left: 40%;
+}
